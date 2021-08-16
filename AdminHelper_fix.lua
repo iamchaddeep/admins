@@ -57,16 +57,16 @@ local prices5 = "PCJ-600 - 1.000.000$ - [ID: 461]\nFaggio - 50.000$ - [ID: 462]\
 local prices6 = "Nevada - 2.500.000$ - [ID: 553]\nShamal - 2.500.000$ - [ID: 519]\nBeagle - 1.500.000$ - [ID: 511]\nMaverick - 2.500.000$ - [ID: 487]\nSparrow - 2.000.000$ - [ID: 469]\nRustler - 1.000.000$ - [ID: 476]\nCropduster - 750.000$ - [ID: 512]\nStunt - 1.000.000$ - [ID: 513]\nDodo - 500.000$ - [ID: 593]"
 local prices7 = "Marquis - 2.500.000$ - [ID: 484]\nSqualo - 1.500.000$ - [ID: 446]\nSpeeder - 2.000.000$ - [ID: 452]\nTropic - 2.500.000$ - [ID: 454]"
 
-local gps1 = "[1] Правительство\n[2] Банк\n[3] Автошкола\n[4] Военкомат\n[5] Flin Town\n[6] Чёрный рынок\n[7] Церковь\n[8] Сбыт бензина\n[9] Сбыт продуктов"
-local gps2 = "[1] Ремонтник железнодорожных дорог\n[2] Дворник\n[3] Садовник\n[4] Волонтер\n[5] Гробовщик\n[6] Пастух\n[7] Сварочный цех\n[8] Продуктовый цех\n[9] Стройка\n[10] Золотой прииск\n[11] Космодром\n[12] Закладчик\n[13] Грабитель\n[14] Автоугон"
-local gps3 = "[1] Развозчик пиццы\n[2] Почтальон\n[3] Развозчик цветов\n[4] Машинист поезда\n[5] Водитель автобуса [LS]\n[6] Водитель автобуса [SF]\n[7] Водитель автобуса [LV]\n[8] Водитель автобуса [Межгород]\n[9] Водитель такси [LS]\n[10] Водитель такси [SF]\n[11] Водитель такси [LV]\n[12] Автомеханик [LS]\n[13] Автомеханик [SF]\n[14] Автомеханик [LV]\n[15] Водитель трамвая\n[16] Инкассатор\n[17] Ремонтник дорог\n[18] Пилот [LS]\n[19] Пилот [SF]\n[20] Пилот [LV]\n[21] Работник налоговой\n[22] Пожарный [LS]\n[23] Пожарный [SF]\n[24] Пожарный [LV]\n[25] Дальнобойщики"
-local gps4 = "[1] Правительство\n[2] Полиция [LS]\n[3] Полиция [SF]\n[4] Полиция [LV]\n[5] Полиция [RC]\n[6] ФБР\n[7] Армия [SF]\n[8] Армия [LV]\n[9] Больница [LS]\n[10] Больница [SF]\n[11] Больница [LV]\n[12] Радиоцентр [LS]\n[13] Радиоцентр [SF]\n[14] Радиоцентр [LV]\n[15] Автошкола\n[16] Тюрьма\n[17] The Grove Gang\n[18] The Ballas Gang\n[19] The Rifa Gang\n[20] The Aztecas Gang\n[21] The Vagos Gang\n[22] Russian Mafia\n[23] La Cosa Nostra\n[24] Yakuza\n[25] Байкеры"
-local gps5 = "[1] Порт [LS]\n[2] Подводная лодка [Армии & Нелег. фракции]\n[3] Военный склад [Армии]\n[4] Гос. контракты [Гос. фракции]\n[5] Нарко-ферма [Нелег. фракции]\n[6] Лаборатория [Больницы]"
-local gps6 = "[1] Ближайший супермаркет\n[2] Ближайший магазин одежды\n[3] Ближайший бар\n[4] Ближайшая заправка\n[5] Ближайшая амуниция\n[6] Ближайшая закусочная\n[7] Ближайшее риэлторское агенство\n[8] Ближайший спортзал\n[9] Ближайший магазин аксессуаров\n[10] Ближайший отель\n[11] Ближайший садовый центр\n[12] Ближайший автосалон\n[13] Ближайший автосервис\n[14] Ближайший ларек с едой"
-local gps7 = "[1] Ферма номер: 1\n[2] Ферма номер: 2\n[3] Ферма номер: 3"
-local gps8 = "[1] СТО номер: 1\n[2] СТО номер: 2\n[3] СТО номер: 3"
-local gps9 = "[1] Автосалон [LS] - Nope\n[2] Автосалон [SF] - C\n[3] Автосалон [SF] - B\n[4] Автосалон [LV] - A\n[5] Мотосалон\n[6] Яхт-клуб\n[7] Аэроклуб\n[8] Приобретение страховки\n[9] Приобретение номеров\n[10] Парковки"
-local gps10 = "[1] Центр развлечений\n[2] Дуэли\n[3] Casino Four Dragons\n[4] Casino Caligula"
+local gps1 = "[1] РџСЂР°РІРёС‚РµР»СЊСЃС‚РІРѕ\n[2] Р‘Р°РЅРє\n[3] РђРІС‚РѕС€РєРѕР»Р°\n[4] Р’РѕРµРЅРєРѕРјР°С‚\n[5] Flin Town\n[6] Р§С‘СЂРЅС‹Р№ СЂС‹РЅРѕРє\n[7] Р¦РµСЂРєРѕРІСЊ\n[8] РЎР±С‹С‚ Р±РµРЅР·РёРЅР°\n[9] РЎР±С‹С‚ РїСЂРѕРґСѓРєС‚РѕРІ"
+local gps2 = "[1] Р РµРјРѕРЅС‚РЅРёРє Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі\n[2] Р”РІРѕСЂРЅРёРє\n[3] РЎР°РґРѕРІРЅРёРє\n[4] Р’РѕР»РѕРЅС‚РµСЂ\n[5] Р“СЂРѕР±РѕРІС‰РёРє\n[6] РџР°СЃС‚СѓС…\n[7] РЎРІР°СЂРѕС‡РЅС‹Р№ С†РµС…\n[8] РџСЂРѕРґСѓРєС‚РѕРІС‹Р№ С†РµС…\n[9] РЎС‚СЂРѕР№РєР°\n[10] Р—РѕР»РѕС‚РѕР№ РїСЂРёРёСЃРє\n[11] РљРѕСЃРјРѕРґСЂРѕРј\n[12] Р—Р°РєР»Р°РґС‡РёРє\n[13] Р“СЂР°Р±РёС‚РµР»СЊ\n[14] РђРІС‚РѕСѓРіРѕРЅ"
+local gps3 = "[1] Р Р°Р·РІРѕР·С‡РёРє РїРёС†С†С‹\n[2] РџРѕС‡С‚Р°Р»СЊРѕРЅ\n[3] Р Р°Р·РІРѕР·С‡РёРє С†РІРµС‚РѕРІ\n[4] РњР°С€РёРЅРёСЃС‚ РїРѕРµР·РґР°\n[5] Р’РѕРґРёС‚РµР»СЊ Р°РІС‚РѕР±СѓСЃР° [LS]\n[6] Р’РѕРґРёС‚РµР»СЊ Р°РІС‚РѕР±СѓСЃР° [SF]\n[7] Р’РѕРґРёС‚РµР»СЊ Р°РІС‚РѕР±СѓСЃР° [LV]\n[8] Р’РѕРґРёС‚РµР»СЊ Р°РІС‚РѕР±СѓСЃР° [РњРµР¶РіРѕСЂРѕРґ]\n[9] Р’РѕРґРёС‚РµР»СЊ С‚Р°РєСЃРё [LS]\n[10] Р’РѕРґРёС‚РµР»СЊ С‚Р°РєСЃРё [SF]\n[11] Р’РѕРґРёС‚РµР»СЊ С‚Р°РєСЃРё [LV]\n[12] РђРІС‚РѕРјРµС…Р°РЅРёРє [LS]\n[13] РђРІС‚РѕРјРµС…Р°РЅРёРє [SF]\n[14] РђРІС‚РѕРјРµС…Р°РЅРёРє [LV]\n[15] Р’РѕРґРёС‚РµР»СЊ С‚СЂР°РјРІР°СЏ\n[16] РРЅРєР°СЃСЃР°С‚РѕСЂ\n[17] Р РµРјРѕРЅС‚РЅРёРє РґРѕСЂРѕРі\n[18] РџРёР»РѕС‚ [LS]\n[19] РџРёР»РѕС‚ [SF]\n[20] РџРёР»РѕС‚ [LV]\n[21] Р Р°Р±РѕС‚РЅРёРє РЅР°Р»РѕРіРѕРІРѕР№\n[22] РџРѕР¶Р°СЂРЅС‹Р№ [LS]\n[23] РџРѕР¶Р°СЂРЅС‹Р№ [SF]\n[24] РџРѕР¶Р°СЂРЅС‹Р№ [LV]\n[25] Р”Р°Р»СЊРЅРѕР±РѕР№С‰РёРєРё"
+local gps4 = "[1] РџСЂР°РІРёС‚РµР»СЊСЃС‚РІРѕ\n[2] РџРѕР»РёС†РёСЏ [LS]\n[3] РџРѕР»РёС†РёСЏ [SF]\n[4] РџРѕР»РёС†РёСЏ [LV]\n[5] РџРѕР»РёС†РёСЏ [RC]\n[6] Р¤Р‘Р \n[7] РђСЂРјРёСЏ [SF]\n[8] РђСЂРјРёСЏ [LV]\n[9] Р‘РѕР»СЊРЅРёС†Р° [LS]\n[10] Р‘РѕР»СЊРЅРёС†Р° [SF]\n[11] Р‘РѕР»СЊРЅРёС†Р° [LV]\n[12] Р Р°РґРёРѕС†РµРЅС‚СЂ [LS]\n[13] Р Р°РґРёРѕС†РµРЅС‚СЂ [SF]\n[14] Р Р°РґРёРѕС†РµРЅС‚СЂ [LV]\n[15] РђРІС‚РѕС€РєРѕР»Р°\n[16] РўСЋСЂСЊРјР°\n[17] The Grove Gang\n[18] The Ballas Gang\n[19] The Rifa Gang\n[20] The Aztecas Gang\n[21] The Vagos Gang\n[22] Russian Mafia\n[23] La Cosa Nostra\n[24] Yakuza\n[25] Р‘Р°Р№РєРµСЂС‹"
+local gps5 = "[1] РџРѕСЂС‚ [LS]\n[2] РџРѕРґРІРѕРґРЅР°СЏ Р»РѕРґРєР° [РђСЂРјРёРё & РќРµР»РµРі. С„СЂР°РєС†РёРё]\n[3] Р’РѕРµРЅРЅС‹Р№ СЃРєР»Р°Рґ [РђСЂРјРёРё]\n[4] Р“РѕСЃ. РєРѕРЅС‚СЂР°РєС‚С‹ [Р“РѕСЃ. С„СЂР°РєС†РёРё]\n[5] РќР°СЂРєРѕ-С„РµСЂРјР° [РќРµР»РµРі. С„СЂР°РєС†РёРё]\n[6] Р›Р°Р±РѕСЂР°С‚РѕСЂРёСЏ [Р‘РѕР»СЊРЅРёС†С‹]"
+local gps6 = "[1] Р‘Р»РёР¶Р°Р№С€РёР№ СЃСѓРїРµСЂРјР°СЂРєРµС‚\n[2] Р‘Р»РёР¶Р°Р№С€РёР№ РјР°РіР°Р·РёРЅ РѕРґРµР¶РґС‹\n[3] Р‘Р»РёР¶Р°Р№С€РёР№ Р±Р°СЂ\n[4] Р‘Р»РёР¶Р°Р№С€Р°СЏ Р·Р°РїСЂР°РІРєР°\n[5] Р‘Р»РёР¶Р°Р№С€Р°СЏ Р°РјСѓРЅРёС†РёСЏ\n[6] Р‘Р»РёР¶Р°Р№С€Р°СЏ Р·Р°РєСѓСЃРѕС‡РЅР°СЏ\n[7] Р‘Р»РёР¶Р°Р№С€РµРµ СЂРёСЌР»С‚РѕСЂСЃРєРѕРµ Р°РіРµРЅСЃС‚РІРѕ\n[8] Р‘Р»РёР¶Р°Р№С€РёР№ СЃРїРѕСЂС‚Р·Р°Р»\n[9] Р‘Р»РёР¶Р°Р№С€РёР№ РјР°РіР°Р·РёРЅ Р°РєСЃРµСЃСЃСѓР°СЂРѕРІ\n[10] Р‘Р»РёР¶Р°Р№С€РёР№ РѕС‚РµР»СЊ\n[11] Р‘Р»РёР¶Р°Р№С€РёР№ СЃР°РґРѕРІС‹Р№ С†РµРЅС‚СЂ\n[12] Р‘Р»РёР¶Р°Р№С€РёР№ Р°РІС‚РѕСЃР°Р»РѕРЅ\n[13] Р‘Р»РёР¶Р°Р№С€РёР№ Р°РІС‚РѕСЃРµСЂРІРёСЃ\n[14] Р‘Р»РёР¶Р°Р№С€РёР№ Р»Р°СЂРµРє СЃ РµРґРѕР№"
+local gps7 = "[1] Р¤РµСЂРјР° РЅРѕРјРµСЂ: 1\n[2] Р¤РµСЂРјР° РЅРѕРјРµСЂ: 2\n[3] Р¤РµСЂРјР° РЅРѕРјРµСЂ: 3"
+local gps8 = "[1] РЎРўРћ РЅРѕРјРµСЂ: 1\n[2] РЎРўРћ РЅРѕРјРµСЂ: 2\n[3] РЎРўРћ РЅРѕРјРµСЂ: 3"
+local gps9 = "[1] РђРІС‚РѕСЃР°Р»РѕРЅ [LS] - Nope\n[2] РђРІС‚РѕСЃР°Р»РѕРЅ [SF] - C\n[3] РђРІС‚РѕСЃР°Р»РѕРЅ [SF] - B\n[4] РђРІС‚РѕСЃР°Р»РѕРЅ [LV] - A\n[5] РњРѕС‚РѕСЃР°Р»РѕРЅ\n[6] РЇС…С‚-РєР»СѓР±\n[7] РђСЌСЂРѕРєР»СѓР±\n[8] РџСЂРёРѕР±СЂРµС‚РµРЅРёРµ СЃС‚СЂР°С…РѕРІРєРё\n[9] РџСЂРёРѕР±СЂРµС‚РµРЅРёРµ РЅРѕРјРµСЂРѕРІ\n[10] РџР°СЂРєРѕРІРєРё"
+local gps10 = "[1] Р¦РµРЅС‚СЂ СЂР°Р·РІР»РµС‡РµРЅРёР№\n[2] Р”СѓСЌР»Рё\n[3] Casino Four Dragons\n[4] Casino Caligula"
 	
 local main_window_state = imgui.ImBool(false)
 local prices_window_state = imgui.ImBool(false)
@@ -141,13 +141,13 @@ function main()
     if not isSampLoaded() or not isSampfuncsLoaded() then return end
     autoupdate("https://github.com/iamchaddeep/jsobob.git", '['..string.upper(thisScript().name)..']: ', "https://github.com/iamchaddeep/1212.git")
 	while not isSampAvailable() do wait(100) end
-    sampAddChatMessage(tag.."{FFFFFF}Скрипт загружен.", 0xFFFFFF)
+    sampAddChatMessage(tag.."{FFFFFF}РЎРєСЂРёРїС‚ Р·Р°РіСЂСѓР¶РµРЅ.", 0xFFFFFF)
     imgui.Process = false
 
     local status, id = sampGetPlayerIdByCharHandle(PLAYER_PED)
     if status then 
         if not isAccessScript(sampGetPlayerNickname(id)) then 
-            sampAddChatMessage('Вам скрипт не доступен, обратитесь vk.com/markowalker', -1)
+            sampAddChatMessage('Р’Р°Рј СЃРєСЂРёРїС‚ РЅРµ РґРѕСЃС‚СѓРїРµРЅ, РѕР±СЂР°С‚РёС‚РµСЃСЊ vk.com/markowalker', -1)
             thisScript():unload()
         end
     end
@@ -184,10 +184,10 @@ function sampGetPlayerIdByNickname(nick)
 end
 
 function sampev.onShowDialog(dialogID, style, title, button1, button2, text)
-    if text:find("Жалоба/сообщение:") and text:find("Отправил:") and text:find("Время отправки:") then
+    if text:find("Р–Р°Р»РѕР±Р°/СЃРѕРѕР±С‰РµРЅРёРµ:") and text:find("РћС‚РїСЂР°РІРёР»:") and text:find("Р’СЂРµРјСЏ РѕС‚РїСЂР°РІРєРё:") then
     	id_dialog = dialogID
-	    nick_report = text:match("Отправил: (%S*)")
-	    text_report = text:gsub('Отправил: (.*)', '')
+	    nick_report = text:match("РћС‚РїСЂР°РІРёР»: (%S*)")
+	    text_report = text:gsub('РћС‚РїСЂР°РІРёР»: (.*)', '')
 	    id_report = sampGetPlayerIdByNickname(nick_report)
 	   	if text:find("[+%-%d]%d*") then
 	        id_suspect = text:match("[+%-%d]%d*")
@@ -226,74 +226,74 @@ function imgui.OnDrawFrame()
     if main_window_state.v then 
         imgui.SetNextWindowSize(imgui.ImVec2(500, 360), imgui.Cond.FirstUseEver)
         imgui.SetNextWindowPos(imgui.ImVec2(main_x / 2, main_y / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
-        imgui.Begin(u8"Жалоба/Вопрос##репорт", _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoBringToFrontOnFocus+ imgui.WindowFlags.NoSavedSettings)
-        imgui.Text(u8"Жалоба от "..nick_report.." ["..id_report.."].") 
+        imgui.Begin(u8"Р–Р°Р»РѕР±Р°/Р’РѕРїСЂРѕСЃ##СЂРµРїРѕСЂС‚", _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoBringToFrontOnFocus+ imgui.WindowFlags.NoSavedSettings)
+        imgui.Text(u8"Р–Р°Р»РѕР±Р° РѕС‚ "..nick_report.." ["..id_report.."].") 
         imgui.Separator()
         imgui.PushItemWidth(485)
         imgui.TextWrapped(u8(text_report))
         imgui.Separator()
         imgui.InputText('', text_buffer)
         imgui.Separator()
-        if imgui.Button(u8'Слежу за нарушителем', imgui.ImVec2(150, 40)) then
+        if imgui.Button(u8'РЎР»РµР¶Сѓ Р·Р° РЅР°СЂСѓС€РёС‚РµР»РµРј', imgui.ImVec2(150, 40)) then
         	main_window_state.v = false
         	prices_window_state.v = false
         	gps_window_state.v = false
         	lua_thread.create(function()
-        		sampSendDialogResponse(id_dialog, 1, nil, "Уважаемый игрок, слежу за нарушителем.")
+        		sampSendDialogResponse(id_dialog, 1, nil, "РЈРІР°Р¶Р°РµРјС‹Р№ РёРіСЂРѕРє, СЃР»РµР¶Сѓ Р·Р° РЅР°СЂСѓС€РёС‚РµР»РµРј.")
         		sampCloseCurrentDialogWithButton(0)
         		wait(1000)
         		if recon_suspect then
         			sampSendChat("/re "..id_suspect)	
-        			sampAddChatMessage(tag.."{FFFFFF} Вы ушли в слежку за автором репорта.", 0xFFFFFF)
+        			sampAddChatMessage(tag.."{FFFFFF} Р’С‹ СѓС€Р»Рё РІ СЃР»РµР¶РєСѓ Р·Р° Р°РІС‚РѕСЂРѕРј СЂРµРїРѕСЂС‚Р°.", 0xFFFFFF)
         		else
-        			sampAddChatMessage(tag.."{FFFFFF} В репорте не был найден ID нарушителя.", 0xFFFFFF)
-        			sampAddChatMessage(tag.."{FFFFFF} Содержимое репорта: "..text_report, 0xFFFFFF)
+        			sampAddChatMessage(tag.."{FFFFFF} Р’ СЂРµРїРѕСЂС‚Рµ РЅРµ Р±С‹Р» РЅР°Р№РґРµРЅ ID РЅР°СЂСѓС€РёС‚РµР»СЏ.", 0xFFFFFF)
+        			sampAddChatMessage(tag.."{FFFFFF} РЎРѕРґРµСЂР¶РёРјРѕРµ СЂРµРїРѕСЂС‚Р°: "..text_report, 0xFFFFFF)
 	      		end
         	end)
         end
         imgui.SameLine()
-        if imgui.Button(u8'Помочь автору (/re)', imgui.ImVec2(150, 40)) then
+        if imgui.Button(u8'РџРѕРјРѕС‡СЊ Р°РІС‚РѕСЂСѓ (/re)', imgui.ImVec2(150, 40)) then
         	main_window_state.v = false
         	prices_window_state.v = false
         	gps_window_state.v = false
         	lua_thread.create(function()
-        		sampSendDialogResponse(id_dialog, 1, nil, "Уважаемый игрок, сейчас попробую Вам помочь.")
+        		sampSendDialogResponse(id_dialog, 1, nil, "РЈРІР°Р¶Р°РµРјС‹Р№ РёРіСЂРѕРє, СЃРµР№С‡Р°СЃ РїРѕРїСЂРѕР±СѓСЋ Р’Р°Рј РїРѕРјРѕС‡СЊ.")
         		wait(100)
         		sampCloseCurrentDialogWithButton(0)
         		wait(1000)
 	        	sampSendChat("/re "..id_report)	
-	        	sampAddChatMessage(tag.."{FFFFFF} Вы ушли в слежку за автором репорта.", 0xFFFFFF)
+	        	sampAddChatMessage(tag.."{FFFFFF} Р’С‹ СѓС€Р»Рё РІ СЃР»РµР¶РєСѓ Р·Р° Р°РІС‚РѕСЂРѕРј СЂРµРїРѕСЂС‚Р°.", 0xFFFFFF)
         	end)
         end
         imgui.SameLine()
-        if imgui.Button(u8'Помочь автору (/goto)', imgui.ImVec2(150, 40)) then
+        if imgui.Button(u8'РџРѕРјРѕС‡СЊ Р°РІС‚РѕСЂСѓ (/goto)', imgui.ImVec2(150, 40)) then
         	main_window_state.v = false
         	prices_window_state.v = false
         	gps_window_state.v = false
         	lua_thread.create(function()
-        		sampSendDialogResponse(id_dialog, 1, nil, "Уважаемый игрок, сейчас попробую Вам помочь.")
+        		sampSendDialogResponse(id_dialog, 1, nil, "РЈРІР°Р¶Р°РµРјС‹Р№ РёРіСЂРѕРє, СЃРµР№С‡Р°СЃ РїРѕРїСЂРѕР±СѓСЋ Р’Р°Рј РїРѕРјРѕС‡СЊ.")
         		wait(100)
         		sampCloseCurrentDialogWithButton(0)
         		wait(1000)
 	        	sampSendChat("/goto "..nick_report)   
-	        	sampAddChatMessage(tag.."{FFFFFF} Вы телепортировались к автору репорта.", 0xFFFFFF)
+	        	sampAddChatMessage(tag.."{FFFFFF} Р’С‹ С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°Р»РёСЃСЊ Рє Р°РІС‚РѕСЂСѓ СЂРµРїРѕСЂС‚Р°.", 0xFFFFFF)
 	        end)
         end
-        if imgui.Button(u8'Гос. цены т/с', imgui.ImVec2(150, 40)) then
+        if imgui.Button(u8'Р“РѕСЃ. С†РµРЅС‹ С‚/СЃ', imgui.ImVec2(150, 40)) then
             prices_imgui()
         end
         imgui.SameLine()
-        if imgui.Button(u8'Переслать в /a чат', imgui.ImVec2(150, 40)) then
+        if imgui.Button(u8'РџРµСЂРµСЃР»Р°С‚СЊ РІ /a С‡Р°С‚', imgui.ImVec2(150, 40)) then
             main_window_state.v = false
             prices_window_state.v = false
             gps_window_state.v = false
             lua_thread.create(function()
-                sampSendDialogResponse(id_dialog, 1, nil, "Уважаемый игрок, передал Ваш репорт Администратору.")
+                sampSendDialogResponse(id_dialog, 1, nil, "РЈРІР°Р¶Р°РµРјС‹Р№ РёРіСЂРѕРє, РїРµСЂРµРґР°Р» Р’Р°С€ СЂРµРїРѕСЂС‚ РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂСѓ.")
                 wait(100)
                 sampCloseCurrentDialogWithButton(0)
                 wait(1000)
                 sampSendChat('/a [REP]: ' ..nick_report ..text_report ..id_report)
-                sampAddChatMessage(tag.."{FFFFFF} Вы переслали репорт в /a чат.", 0xFFFFFF)
+                sampAddChatMessage(tag.."{FFFFFF} Р’С‹ РїРµСЂРµСЃР»Р°Р»Рё СЂРµРїРѕСЂС‚ РІ /a С‡Р°С‚.", 0xFFFFFF)
             end)
             
         end
@@ -304,7 +304,7 @@ function imgui.OnDrawFrame()
         imgui.Separator()
         imgui.SetCursorPosX(30)
         imgui.SetCursorPosY(300)
-        if imgui.Button(u8'Отправить', imgui.ImVec2(150, 40)) then
+        if imgui.Button(u8'РћС‚РїСЂР°РІРёС‚СЊ', imgui.ImVec2(150, 40)) then
             main_window_state.v = false
         	prices_window_state.v = false
         	gps_window_state.v = false
@@ -312,13 +312,13 @@ function imgui.OnDrawFrame()
         		sampSendDialogResponse(id_dialog, 1, nil, u8:decode(text_buffer.v))
         		wait(100)
 	            sampCloseCurrentDialogWithButton(0)
-	            sampAddChatMessage(tag.."{FFFFFF}Вы отправили ответ на жалобу/вопрос.", 0xFFFFFF)
+	            sampAddChatMessage(tag.."{FFFFFF}Р’С‹ РѕС‚РїСЂР°РІРёР»Рё РѕС‚РІРµС‚ РЅР° Р¶Р°Р»РѕР±Сѓ/РІРѕРїСЂРѕСЃ.", 0xFFFFFF)
         	end) 
         end
         imgui.SameLine()
         imgui.SetCursorPosX(320)
         imgui.SetCursorPosY(300)
-        if imgui.Button(u8'Закрыть', imgui.ImVec2(150, 40)) then 
+        if imgui.Button(u8'Р—Р°РєСЂС‹С‚СЊ', imgui.ImVec2(150, 40)) then 
         	main_window_state.v = false
         	prices_window_state.v = false
         	gps_window_state.v = false
@@ -326,7 +326,7 @@ function imgui.OnDrawFrame()
                 sampSendDialogResponse(id_dialog, 0, nil, nil)
                 wait(100)
                 sampCloseCurrentDialogWithButton(0)
-                sampAddChatMessage(tag.."{FFFFFF}Вы закрыли окно с жалобой/вопросом.", 0xFFFFFF)
+                sampAddChatMessage(tag.."{FFFFFF}Р’С‹ Р·Р°РєСЂС‹Р»Рё РѕРєРЅРѕ СЃ Р¶Р°Р»РѕР±РѕР№/РІРѕРїСЂРѕСЃРѕРј.", 0xFFFFFF)
             end)
         end
         imgui.End()
@@ -334,26 +334,26 @@ function imgui.OnDrawFrame()
     if prices_window_state.v then 
     	imgui.SetNextWindowSize(imgui.ImVec2(250, 360), imgui.Cond.FirstUseEver)
     	imgui.SetNextWindowPos(imgui.ImVec2(main_x / 3 - 80, main_y / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
-        imgui.Begin(u8"Государственные цены транспорта", _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoBringToFrontOnFocus+ imgui.WindowFlags.NoSavedSettings)
-        if imgui.CollapsingHeader(u8"Автосалон Los-Santos [Nope]") then
+        imgui.Begin(u8"Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Рµ С†РµРЅС‹ С‚СЂР°РЅСЃРїРѕСЂС‚Р°", _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoBringToFrontOnFocus+ imgui.WindowFlags.NoSavedSettings)
+        if imgui.CollapsingHeader(u8"РђРІС‚РѕСЃР°Р»РѕРЅ Los-Santos [Nope]") then
             imgui.Text(prices1)
         end
-        if imgui.CollapsingHeader(u8"Автосалон San-Fierro [C]") then
+        if imgui.CollapsingHeader(u8"РђРІС‚РѕСЃР°Р»РѕРЅ San-Fierro [C]") then
             imgui.Text(prices2)
         end
-        if imgui.CollapsingHeader(u8"Автосалон San-Fierro [B]") then
+        if imgui.CollapsingHeader(u8"РђРІС‚РѕСЃР°Р»РѕРЅ San-Fierro [B]") then
             imgui.Text(prices3)
         end
-        if imgui.CollapsingHeader(u8"Автосалон Las-Venturas [A]") then
+        if imgui.CollapsingHeader(u8"РђРІС‚РѕСЃР°Р»РѕРЅ Las-Venturas [A]") then
             imgui.Text(prices4)
         end
-        if imgui.CollapsingHeader(u8"Мотосалон San-Fierro") then
+        if imgui.CollapsingHeader(u8"РњРѕС‚РѕСЃР°Р»РѕРЅ San-Fierro") then
             imgui.Text(prices5)
         end
-        if imgui.CollapsingHeader(u8"Аэросалон Las-Venturas") then
+        if imgui.CollapsingHeader(u8"РђСЌСЂРѕСЃР°Р»РѕРЅ Las-Venturas") then
             imgui.Text(prices6)
         end
-        if imgui.CollapsingHeader(u8"Яхт-Клуб") then
+        if imgui.CollapsingHeader(u8"РЇС…С‚-РљР»СѓР±") then
             imgui.Text(prices7)
         end
         imgui.End()
@@ -361,49 +361,49 @@ function imgui.OnDrawFrame()
     if gps_window_state.v then
     	imgui.SetNextWindowSize(imgui.ImVec2(250, 360), imgui.Cond.FirstUseEver)
     	imgui.SetNextWindowPos(imgui.ImVec2(main_x / 2 + 400, main_y / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
-    	imgui.Begin(u8"GPS навигатор", _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoBringToFrontOnFocus+ imgui.WindowFlags.NoSavedSettings)
-    	if imgui.CollapsingHeader(u8"[1] Общественные места") then
+    	imgui.Begin(u8"GPS РЅР°РІРёРіР°С‚РѕСЂ", _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoBringToFrontOnFocus+ imgui.WindowFlags.NoSavedSettings)
+    	if imgui.CollapsingHeader(u8"[1] РћР±С‰РµСЃС‚РІРµРЅРЅС‹Рµ РјРµСЃС‚Р°") then
     		imgui.Text(u8(gps1))
     	end
-    	if imgui.CollapsingHeader(u8"[2] Первоначальные работы") then
+    	if imgui.CollapsingHeader(u8"[2] РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅС‹Рµ СЂР°Р±РѕС‚С‹") then
     		imgui.Text(u8(gps2))
     	end
-    	if imgui.CollapsingHeader(u8"[3] Основные работы") then
+    	if imgui.CollapsingHeader(u8"[3] РћСЃРЅРѕРІРЅС‹Рµ СЂР°Р±РѕС‚С‹") then
     		imgui.Text(u8(gps3))
     	end
-    	if imgui.CollapsingHeader(u8"[4] Фракции") then
+    	if imgui.CollapsingHeader(u8"[4] Р¤СЂР°РєС†РёРё") then
     		imgui.Text(u8(gps4))
     	end
-    	if imgui.CollapsingHeader(u8"[5] Для фракций") then
+    	if imgui.CollapsingHeader(u8"[5] Р”Р»СЏ С„СЂР°РєС†РёР№") then
     		imgui.Text(u8(gps5))
     	end
-    	if imgui.CollapsingHeader(u8"[6] Бизнесы") then
+    	if imgui.CollapsingHeader(u8"[6] Р‘РёР·РЅРµСЃС‹") then
     		imgui.Text(u8(gps6))
     	end
-    	if imgui.CollapsingHeader(u8"[7] Фермы") then
+    	if imgui.CollapsingHeader(u8"[7] Р¤РµСЂРјС‹") then
     		imgui.Text(u8(gps7))
     	end
-    	if imgui.CollapsingHeader(u8"[8] СТО") then
+    	if imgui.CollapsingHeader(u8"[8] РЎРўРћ") then
     		imgui.Text(u8(gps8))
     	end
-    	if imgui.CollapsingHeader(u8"[9] Транспорт") then
+    	if imgui.CollapsingHeader(u8"[9] РўСЂР°РЅСЃРїРѕСЂС‚") then
     		imgui.Text(u8(gps9))
     	end
-    	if imgui.CollapsingHeader(u8"[10] Развлечения") then
+    	if imgui.CollapsingHeader(u8"[10] Р Р°Р·РІР»РµС‡РµРЅРёСЏ") then
     		imgui.Text(u8(gps10))
     	end
-    	imgui.CollapsingHeader(u8"[11] Рыбалка")
-    	imgui.CollapsingHeader(u8"[12] Охота")
-    	imgui.CollapsingHeader(u8"[13] Офисы компаний")
-    	imgui.CollapsingHeader(u8"[14] Рынок")
-    	imgui.CollapsingHeader(u8"[15] Авторынок")
-    	imgui.CollapsingHeader(u8"[16] Аукцион контейнеров")
-    	imgui.CollapsingHeader(u8"[17] Ближайший банкомат")
-    	imgui.CollapsingHeader(u8"[18] Мой дом")
-    	imgui.CollapsingHeader(u8"[19] Мой бизнес")
-    	imgui.CollapsingHeader(u8"[20] Мой транспорт")
-    	imgui.CollapsingHeader(u8"[21] Дом семьи")
-    	imgui.CollapsingHeader(u8"[22] Обмен гражданских монет")
+    	imgui.CollapsingHeader(u8"[11] Р С‹Р±Р°Р»РєР°")
+    	imgui.CollapsingHeader(u8"[12] РћС…РѕС‚Р°")
+    	imgui.CollapsingHeader(u8"[13] РћС„РёСЃС‹ РєРѕРјРїР°РЅРёР№")
+    	imgui.CollapsingHeader(u8"[14] Р С‹РЅРѕРє")
+    	imgui.CollapsingHeader(u8"[15] РђРІС‚РѕСЂС‹РЅРѕРє")
+    	imgui.CollapsingHeader(u8"[16] РђСѓРєС†РёРѕРЅ РєРѕРЅС‚РµР№РЅРµСЂРѕРІ")
+    	imgui.CollapsingHeader(u8"[17] Р‘Р»РёР¶Р°Р№С€РёР№ Р±Р°РЅРєРѕРјР°С‚")
+    	imgui.CollapsingHeader(u8"[18] РњРѕР№ РґРѕРј")
+    	imgui.CollapsingHeader(u8"[19] РњРѕР№ Р±РёР·РЅРµСЃ")
+    	imgui.CollapsingHeader(u8"[20] РњРѕР№ С‚СЂР°РЅСЃРїРѕСЂС‚")
+    	imgui.CollapsingHeader(u8"[21] Р”РѕРј СЃРµРјСЊРё")
+    	imgui.CollapsingHeader(u8"[22] РћР±РјРµРЅ РіСЂР°Р¶РґР°РЅСЃРєРёС… РјРѕРЅРµС‚")
     	imgui.End()
     end
 end
@@ -438,21 +438,21 @@ function isAccessScript(name)
                     lua_thread.create(function(prefix)
                       local dlstatus = require('moonloader').download_status
                       local color = -1
-                      sampAddChatMessage((prefix..'Обнаружено обновление. Пытаюсь обновиться c '..thisScript().version..' на '..updateversion), color)
+                      sampAddChatMessage((prefix..'РћР±РЅР°СЂСѓР¶РµРЅРѕ РѕР±РЅРѕРІР»РµРЅРёРµ. РџС‹С‚Р°СЋСЃСЊ РѕР±РЅРѕРІРёС‚СЊСЃСЏ c '..thisScript().version..' РЅР° '..updateversion), color)
                       wait(250)
                       downloadUrlToFile(updatelink, thisScript().path,
                         function(id3, status1, p13, p23)
                           if status1 == dlstatus.STATUS_DOWNLOADINGDATA then
-                            print(string.format('Загружено %d из %d.', p13, p23))
+                            print(string.format('Р—Р°РіСЂСѓР¶РµРЅРѕ %d РёР· %d.', p13, p23))
                           elseif status1 == dlstatus.STATUS_ENDDOWNLOADDATA then
-                            print('Загрузка обновления завершена.')
-                            sampAddChatMessage((prefix..'Обновление завершено!'), color)
+                            print('Р—Р°РіСЂСѓР·РєР° РѕР±РЅРѕРІР»РµРЅРёСЏ Р·Р°РІРµСЂС€РµРЅР°.')
+                            sampAddChatMessage((prefix..'РћР±РЅРѕРІР»РµРЅРёРµ Р·Р°РІРµСЂС€РµРЅРѕ!'), color)
                             goupdatestatus = true
                             lua_thread.create(function() wait(500) thisScript():reload() end)
                           end
                           if status1 == dlstatus.STATUSEX_ENDDOWNLOAD then
                             if goupdatestatus == nil then
-                              sampAddChatMessage((prefix..'Обновление прошло неудачно. Запускаю устаревшую версию..'), color)
+                              sampAddChatMessage((prefix..'РћР±РЅРѕРІР»РµРЅРёРµ РїСЂРѕС€Р»Рѕ РЅРµСѓРґР°С‡РЅРѕ. Р—Р°РїСѓСЃРєР°СЋ СѓСЃС‚Р°СЂРµРІС€СѓСЋ РІРµСЂСЃРёСЋ..'), color)
                               update = false
                             end
                           end
@@ -462,11 +462,11 @@ function isAccessScript(name)
                     )
                   else
                     update = false
-                    print('v'..thisScript().version..': Обновление не требуется.')
+                    print('v'..thisScript().version..': РћР±РЅРѕРІР»РµРЅРёРµ РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ.')
                   end
                 end
               else
-                print('v'..thisScript().version..': Не могу проверить обновление. Смиритесь или проверьте самостоятельно на '..url)
+                print('v'..thisScript().version..': РќРµ РјРѕРіСѓ РїСЂРѕРІРµСЂРёС‚СЊ РѕР±РЅРѕРІР»РµРЅРёРµ. РЎРјРёСЂРёС‚РµСЃСЊ РёР»Рё РїСЂРѕРІРµСЂСЊС‚Рµ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕ РЅР° '..url)
                 update = false
               end
             end
